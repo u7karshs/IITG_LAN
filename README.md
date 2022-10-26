@@ -1,4 +1,7 @@
-# Steps 👩‍🏫
+# IITG AutoLogin
+This script will automate logging in to the IITG network with a single click.
+
+## Steps 👩‍🏫
 
 1. Update the login credentials in login.sh file.
    (interactive or hardcoded)
