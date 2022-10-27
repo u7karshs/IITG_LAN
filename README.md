@@ -20,7 +20,8 @@ This script will automate logging in to the IITG network with a single click.
 2. `Allow Launching` by right click on the above created desktop shortcut
 3. Then edit the .desktop file as per the requirement and script file path
    for example:
-   ```#!/bin/bash
+```
+#!/bin/bash
 [Desktop Entry]
 Version=1.0
 Type=Application
