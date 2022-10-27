@@ -31,3 +31,5 @@ Exec=bash -c "/home/u/Documents/LAN/log.sh"
 Name=IITGlogin
 Comment=do this and that
 ```
+4. If required, create a startup application using the shortcut `Alt`+`F2` and run the
+   `gnome-session-properties` command. 
