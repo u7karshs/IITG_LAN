@@ -1,0 +1,8 @@
+#!/bin/bash
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=bash -c "/home/u/Documents/LAN/log.sh"
+Name=IITGlogin
+Comment=do this and that
