@@ -33,3 +33,8 @@ Comment=do this and that
 ```
 4. One can choose to create a startup application using the shortcut `Alt`+`F2` and run the
    `gnome-session-properties` command. 
+
+## Future modification if required
+1. To add a logout feature
+2. To use curl in silent mode, i.e `-s/--silent`, doesn't show a progress meter or error messages. Makes Curl mute. 
+   If this option is used twice, the second will again disable mute.
