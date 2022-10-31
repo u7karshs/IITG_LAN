@@ -17,8 +17,8 @@ This script will automate logging in to the IITG network with a single click.
 
 ## To configure oneClick .desktop {Ubuntu} file 👀
 1. Create desktop shortcut launcher from existing .desktop files from
-   `$ nautilus /usr/share/applications/`
-2. `Allow Launching` by right click on the above created desktop shortcut
+   `$ nautilus /usr/share/applications/`.
+2. `Allow Launching` by right click on the above created desktop shortcut.
 3. Then edit the .desktop file as per the requirement and script file path
    for example:
 ```
@@ -35,6 +35,6 @@ Comment=do this and that
    `gnome-session-properties` command. 
 
 ## Future modification if required
-1. To add a logout feature
+1. To add a logout feature.
 2. To use curl in silent mode, i.e `-s/--silent`, doesn't show a progress meter or error messages. Makes Curl mute. 
    If this option is used twice, the second will again disable mute.
