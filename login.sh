@@ -18,10 +18,10 @@ url_encode() {
 }
 
 #For User Input
-#echo -n Username:
-#read username
-#echo -n Password:
-#read -s passwd
+echo -n Username:
+read username
+echo -n Password:
+read -s passwd
 
 #hard code
 #username='YourID'
