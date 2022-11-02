@@ -17,7 +17,6 @@ url_encode() {
    }' "$1"
 }
 
-
 #For User Input
 #echo -n Username:
 #read username
