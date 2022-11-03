@@ -17,7 +17,6 @@ url_encode() {
    }' "$1"
 }
 
-
 #For User Input
 echo -n Username:
 read username
@@ -41,7 +40,6 @@ mu=${lk:72:59}
 echo "********"
  echo "$mu"
 
-
 i=0
 while true
 do
@@ -50,4 +48,3 @@ do
 	((i++))
      sleep 550
 done
-
