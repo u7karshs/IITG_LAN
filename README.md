@@ -39,4 +39,5 @@ Comment=do this and that
 2. To use curl in silent mode, i.e `-s/--silent`, doesn't show a progress meter or error messages. Makes Curl mute. 
    If this option is used twice, the second will again disable mute.
 3. Link parsed to reload is trimmed for 600 sec (default) reload option, which might get modified in future.
-4. Creating def. inf. reacal/reload loop 
+4. Creating def. inf. recal/reload loop => supporting remote invocation {Error handling | Remote connection}
+
