@@ -40,4 +40,4 @@ Comment=do this and that
    If this option is used twice, the second will again disable mute.
 3. Link parsed to reload is trimmed for 600 sec (default) reload option, which might get modified in future.
 4. Creating def. inf. recal/reload loop => supporting remote invocation {Error handling | Remote connection}
-
+5. https://curl.se/docs/sslcerts.html {`-k` / `--insecure`} SSL/TLS Certificate Verification
