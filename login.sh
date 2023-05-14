@@ -44,7 +44,7 @@ echo "********"
 i=0
 while true
 do
-    curl -b cookiejar.txt "$mu"  >/dev/null	
+    curl -k -b cookiejar.txt "$mu"  >/dev/null	
 	echo "****** connected $i ******"
 	((i++))
      sleep 550
