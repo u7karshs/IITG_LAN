@@ -1,5 +1,6 @@
 # IITG AutoLogin
 This script will automate logging in to the IITG network with a single click.
+</br></br> <img src="/img.png"/>
 
 ## Steps 👩‍🏫
 
