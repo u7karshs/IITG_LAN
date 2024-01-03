@@ -35,8 +35,8 @@ lk=$(curl -b cookiejar.txt --data "4Tredir=https%3A%2F%2Fagnigarh.iitg.ac.in%3A1
 
 echo =========================
 
-mu=${lk:72:59}
-#use mu=${lk:59:59}, if 1200sec is the default reload option 
+mu=${lk:59:59}
+#use mu=${lk:72:59}, if 1200sec is not the default reload option 
 
 echo "********"
  echo "$mu"
