@@ -58,9 +58,6 @@ ctrl_c() {
 trap ctrl_c SIGINT
 
 
-
-
-
 i=0
 while true
 do
@@ -69,12 +66,3 @@ do
 	((i++))
      sleep 550
 done
-
-
-
-
-
-
-
-
-
