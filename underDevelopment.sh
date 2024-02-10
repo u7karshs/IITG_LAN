@@ -23,7 +23,6 @@ read username
 echo -n Password:
 read -s passwd
 
-
 #hard code
 #username='YourID'
 #passwd='YourPass'
