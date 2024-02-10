@@ -23,6 +23,12 @@ read username
 echo -n Password:
 read -s passwd
 
+
+#hard code
+#username='YourID'
+#passwd='YourPass'
+
+
 magic=$(curl -X GET https://agnigarh.iitg.ac.in:1442/login? -k | grep magic | sed 's/.*name="magic" value="\(.*\)".*/\1/')
 passwd=$(url_encode $passwd)
 
