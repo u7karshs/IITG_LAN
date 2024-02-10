@@ -36,7 +36,7 @@ Comment=do this and that
    `gnome-session-properties` command. 
 
 ## Future modifications 🔮
-1. Refactoring `incomplete.sh` that has added a logout feature.
+1. Refactoring `incomplete.sh` that has logout feature `trap ctrl_c SIGINT`.
 2. To use curl in silent mode, i.e `-s/--silent`, doesn't show a progress meter or error messages. Makes Curl mute. 
    If this option is used twice, the second will again disable mute.
 3. Link parsed to reload is trimmed for 600 sec (default) reload option, which might get modified in future.
