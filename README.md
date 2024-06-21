@@ -33,7 +33,8 @@ Name=IITGlogin
 Comment=do this and that
 ```
 4. One can choose to create a startup application using the shortcut `Alt`+`F2` and run the
-   `gnome-session-properties` command. 
+   `gnome-session-properties` command.
+5. Alternatively, can use `lynx https://agnigarh.iitg.ac.in:1442/login?` in shell. 
 
 ## Future modifications 🔮
 1. Refactoring `underDevelopment.sh` that has logout feature `trap ctrl_c SIGINT`.
