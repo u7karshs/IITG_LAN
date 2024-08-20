@@ -18,9 +18,9 @@ This script will automate logging in to the IITG network with a single click.
 
 ## To configure oneClick .desktop {Ubuntu} file 👀
 1. Create desktop shortcut launcher from existing .desktop files from
-   `$ nautilus /usr/share/applications/`.
-2. `Allow Launching` by right click on the above created desktop shortcut.
-3. Then edit the .desktop file as per the requirement and script file path
+   `$ /usr/share/applications`.
+3. `Allow Launching` by right click on the above created desktop shortcut.
+4. Then edit the .desktop file as per the requirement and script file path
    for example:
 ```
 #!/bin/bash
@@ -32,9 +32,8 @@ Exec=bash -c "/home/u/Documents/LAN/log.sh"
 Name=IITGlogin
 Comment=do this and that
 ```
-4. One can choose to create a startup application using the shortcut `Alt`+`F2` and run the
-   `gnome-session-properties` command.
-5. Alternatively, can use `lynx https://agnigarh.iitg.ac.in:1442/login?` in shell. 
+5. One can choose to create a startup application globally for all users by saving the .desktop file in `/etc/xdg/autostart`. Check for the updated startup application by using the shortcut `Alt`+`F2` and run the `gnome-session-properties` command.   
+6. Alternatively, can use `lynx https://agnigarh.iitg.ac.in:1442/login?` in shell. 
 
 ## Future modifications 🔮
 1. Refactoring `underDevelopment.sh` that has logout feature `trap ctrl_c SIGINT`.
