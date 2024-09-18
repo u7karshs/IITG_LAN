@@ -16,6 +16,7 @@ url_encode() {
       print t
    }' "$1"
 }
+#https://192.168.193.1:1442/login?
 
 #For User Input
 echo -n Username:
